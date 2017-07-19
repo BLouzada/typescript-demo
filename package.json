@@ -16,11 +16,12 @@
     "url": "https://github.com/BLouzada/typescript-demo/issues"
   },
   "homepage": "https://github.com/BLouzada/typescript-demo#readme",
-  "dependencies": {
-    "webpack": "^3.3.0"
-  },
   "devDependencies": {
+    "webpack": "^3.3.0",
     "ts-loader": "^2.3.0",
     "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.3"
   }
 }

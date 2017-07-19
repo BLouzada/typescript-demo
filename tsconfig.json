@@ -1,14 +1,10 @@
 {
-  "compilerOptions": {
-    "sourceMap": true,
-    "module": "commonjs",
-    "outDir": "./dist"
+    "compilerOptions": {
+        "module": "amd",
+        "sourceMap": true,
+        "outFile": "dist/Test.js"
     },
-    "include": [
-        "src/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
+    "files": [
+        "src/App.ts"
     ]
 }
