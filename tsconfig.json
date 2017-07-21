@@ -1,8 +1,17 @@
+//namespaces
+// {
+//     "compilerOptions": {
+//         "module": "amd",
+//         "target": "es3",
+//         "outFile": "namespacesdist/Test.js"
+//     },
+//     "files": [
+//         "namespaces/src/App.ts"
+//     ]
+// }
+//modules
 {
     "compilerOptions": {
-        "module": "amd",
-        "sourceMap": true,
-        "outFile": "dist/Test.js"
     },
     "files": [
         "src/App.ts"
